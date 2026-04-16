@@ -259,21 +259,11 @@ button:focus {
   display: block;
 }
 
-/* Скрываем искры по умолчанию */
-.like-icon .sparks {
-  opacity: 0;
-}
-
 /* Группа сердца будет использоваться для анимаций */
 .like-icon .heart {
   transform-origin: center;
 }
 
-/* Можно задать плавные переходы для всех частей */
-.like-icon .contour {
-  fill: var(--contour-color);
-  transition: fill 0.1s linear;
-}
 
 .like-icon .core,
 .like-icon .main-body {
@@ -282,6 +272,7 @@ button:focus {
 }
 
 .like-icon .sparks {
+  opacity: 0;
   fill: var(--animation-fill-color);
   transition: opacity 0.3s ease;
 }
@@ -298,6 +289,7 @@ button:focus {
 
 .like-icon .contour {
   fill: var(--contour-color);
+  transition: fill 0.1s linear;
 }
 
 /* При наведении на всю иконку меняем заливку и переходы */
@@ -338,10 +330,6 @@ button:focus {
   transition: fill 0.3s linear 0.06s;
 }
 
-/* Возврат контура при снятии лайка */
-.like-icon .contour {
-  transition: fill 0.1s linear;
-}
 
 /* Масштабирование сердца */
 .like-icon.is-liked .heart {
