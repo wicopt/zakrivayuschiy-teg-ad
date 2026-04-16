@@ -134,7 +134,7 @@ button {
 button:focus {
   outline: none;
 }
-.card__icon-button:focus-visible{
+.card__icon-button:focus-visible {
   border: 2px solid var(--main-color);
 }
 
@@ -252,7 +252,6 @@ button:focus {
     flex-direction: column;
   }
 }
-
 
 /* ANIMATIOn */
 /* Иконка сердца */
@@ -375,7 +374,6 @@ button:focus {
     opacity: 0;
   }
 }
-
 
 .card:nth-child(2) .img__card {
   filter: grayscale(0.7) contrast(1.2); /* множественный */

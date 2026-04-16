@@ -11,10 +11,9 @@
   --background-color: #fff;
   --button-text-color: #fff;
 
-  --contour-color: #000; 
+  --contour-color: #000;
   --animation-fill-color: #ff0000;
-  
-  
+
   --background-image:
     repeating-linear-gradient(
       to right,
